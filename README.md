@@ -1,2 +1,3 @@
 # joyoflife
-SCSE Hackathon
+
+git clone https://github.com/Booxworm/joyoflife.git
