@@ -1,0 +1,12 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+  <h1>Peer Tutoring System</h1>
+  <p>Welcome to Peer Tutoring!</p>
+  <h2>Dynamic content</h2>
+  <p>We have the following tutors and tutees:</p>
+  <ul>
+    <li><strong>Tutors:</strong> {{ num_tutors }}</li>
+    <li><strong>Tutees:</strong> {{ num_tutees }}</li>
+  </ul>
+{% endblock %}
